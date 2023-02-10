@@ -1,0 +1,21 @@
+.footer{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p {
+    color: white;
+    margin: 20px;
+}
+
+.img-footer{
+    margin-top: 20px;
+}
+
+.footer-links{
+    margin-bottom: 20px;
+}
+.icon-footer:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,7 @@
+.container-fluid{
+    margin: 15px 15px 0 15px;
+}
+
+.nav-item{
+    cursor: pointer;
+}
