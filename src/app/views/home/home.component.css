@@ -4,11 +4,23 @@ body {
 }
 
 .first-section{
-    padding: 60px;
+    width: min (100%, 1000px);
+    padding: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.first-section img{
+    width: 100%;
+}
+@media screen and (max-width: 992px){
+    .first-section{
+       flex-direction: column;
+       align-items: center;
+   }
+   
+}
+
 
 .first-section h1{
     font-weight: 700;
@@ -20,21 +32,33 @@ body {
 }
 
 .intro-txt {
-    padding-left: 25px;
+    padding-left: 1.5rem;
 
 }
 
 .presentation{
     background-color:#B32885 ;
     display: flex;
-    padding: 80px;
+    padding: 5rem;
     justify-content: center;
     align-items: center;
+}
+
+.presentation img{
+    width: 18.1rem;
 }
 
 .presentation-txt{
     color: #fff;
     padding: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .presentation{
+       flex-direction: column;
+       align-items: center;
+   }
+   
 }
 
 .projetos{
@@ -50,6 +74,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media screen and (max-width: 992px){
+    .skills{
+       flex-direction: column;
+       align-items: center;
+   }
+   
 }
 
 .icons{
@@ -67,6 +98,13 @@ body {
     
 }
 
+@media screen and (max-width: 992px){
+    .icons{
+       flex-direction: column;
+       align-items: center;
+   }
+   
+}
 .icon-item p {
     margin-top: 15px;
 }
